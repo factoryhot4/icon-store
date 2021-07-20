@@ -1,0 +1,90 @@
+.subcribe{
+    background-color:rgba(88, 84, 84, 0.534) ;
+    height: 100%;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.subcribe form{
+    text-align: center;
+}
+
+.subcribe a{
+    text-decoration: none;
+
+}
+
+.subcribe form h1{
+    margin: 3rem 0;
+    font-size:2rem;
+    color:white;;
+}
+
+
+.subcribe form p{
+    font-size:1rem;
+    color:white;
+}
+
+
+.subcribe .email-box{
+    margin: 2rem 0;
+}
+
+.subcribe .email-box{
+    height:3.3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.email-box i{
+    width: 4rem;
+    line-height: 3.3rem;
+    background-color:black;
+    color:white;
+    font-size: 1.5rem;
+}
+
+.subcribe .email-box .button{
+    padding: 1rem 1rem;
+    background-color:black;
+    font-size: 1rem;
+    cursor: pointer;
+    display: inline-block;
+    color:white;
+    transition:  0.5s linear ;
+    line-height: 1.2rem;
+    border:none;
+    outline: none;
+}
+
+.email-icon{
+    border: none;
+    outline:none;
+    width: 0px;
+    transition: 0.6s;
+}
+
+.email-box:hover  .email-icon,.email-icon:focus{
+    width:26rem;
+    padding: 0 1rem;
+}
+
+
+@media screen and (max-width:768px){
+    .subcribe form h1{
+        font-size:2.4rem;
+    }
+    .subcribe form p{
+        font-size:1rem;
+    }
+    .subcribe{
+        height:100%;
+    }
+    .subcribe .email-box:hover input[type=email]{
+        width:50%;
+    }
+}

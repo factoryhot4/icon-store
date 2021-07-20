@@ -1,0 +1,24 @@
+.phukien-banner-section{
+    background-color: rgba(240, 236, 236, 0.747);
+    padding: 0.7rem 0;
+    width:100%;
+    border-bottom: 1px solid lightgray;
+}
+
+.phukien-banner{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.phukien-banner h1{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.phukien-banner p{
+    text-align: center;
+    font-size: 13.5px;
+    line-height: 23px;
+    color:rgb(105, 103, 103)
+}

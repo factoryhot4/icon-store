@@ -1,0 +1,113 @@
+.contact-section{
+    background-color:rgba(240, 236, 236, 0.747); 
+    border-top:5px solid rgba(194, 192, 192, 0.747);
+    width:100%;
+    display:flex;
+    align-items: center;
+    padding:3rem 2rem;
+    justify-content: center;
+}
+
+.contact-content{
+    max-width: 1300px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-item{
+    display:flex;
+    align-items: center;
+    width:220px;
+    background-color: white;
+    border-radius: 10px;
+   justify-content: space-around;
+    padding:0.5rem 0.6rem;
+    cursor: pointer;
+}
+
+.contact-item:hover{
+    box-shadow: 1px 9px 17px 0px rgba(0,0,0,0.39);
+    transition: all 0.2s ease;
+}
+
+.item-icon{
+    font-size:30px;
+    padding:0.3rem 0.6rem;
+    background-color: rgba(241, 82, 19, 0.884);
+    color:white;
+    border-radius: 10px;
+    
+}
+
+
+
+.item-content-1{
+    font-size:14px;
+    font-weight: 600;
+}
+
+.item-content-2{
+    color:rgba(241, 82, 19, 0.884);
+    font-weight: 600;
+}
+
+.contact-item-icon{
+    width:250px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.contact-icon{
+    background-color: white;
+    padding:0.8rem 1.5rem;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.contact-icon:hover{
+    box-shadow: 1px 9px 17px 0px rgba(0,0,0,0.39);
+    transition: all 0.2s ease;
+}
+
+.contact-icon .fa-facebook-f{
+    color:#3b5998; 
+}
+
+.contact-icon .fa-youtube{
+    color:#c4302b;
+}
+
+.contact-icon .fa-instagram{
+    color:#E1306C;
+}
+
+@media screen and (max-width:800px){
+    .contact-content{
+        flex-direction: column;
+       
+    }
+    .contact-item{
+        width:100%;
+        justify-content: flex-start;
+
+        margin: 0.4rem 0;
+    }
+    .item-content{
+        padding-left: 1rem;
+    }
+
+    .contact-item-icon{
+        width:100%;
+        justify-content: flex-start;
+        margin:0.4rem 0;
+    }
+    .contact-item-icon :nth-child(2){
+        margin: 0 1rem;
+    }
+    .contact-section{
+        padding-top:2rem;
+    }
+}

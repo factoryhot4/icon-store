@@ -1,0 +1,234 @@
+ .chinh-sach-title{
+     max-width: 1300px;
+     margin: 0 auto;
+     font-size:1.8rem;
+     padding: 3rem 0;
+     border-bottom:1px solid lightgray;
+ }
+
+ .chinh-sach-section{
+     max-width: 1300px;
+     margin:0 auto;
+     
+ }
+
+.chinh-sach-header{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.chinh-sach-header h1{
+    font-size:2.6rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top:5rem;
+}
+
+.chinh-sach-header p{
+    font-size: 1.3rem;
+    border: 2px solid black;
+    padding: 0.5rem 1.3rem;
+    width:80%;
+    font-weight: 500;
+    margin: 0.9rem auto;
+    display: block;
+}
+
+
+@media  screen and (max-width:768px){
+    .chinh-sach-header h1{
+        font-size:1.4rem;
+    }
+    .chinh-sach-header p{
+        font-size: 1rem;
+    }
+}
+
+/* I, Chinh sach doi hang */
+
+.chinh-sach-doi-hang{
+    max-width:1000px;
+    margin: 1.5rem auto;
+}
+
+.chinh-sach-doi-hang h1{
+    padding: 0.7rem 0.9rem;
+    background-color: rgb(117, 115, 115);
+    color:white;
+    font-size: 1.4rem;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+
+
+.chinh-sach-doi-hang-content{
+    font-size:1.1rem;
+    color:rgb(75, 73, 73);
+    background-color: whitesmoke;
+    padding: 0.5rem 1rem;
+    margin: 0.9rem 0;
+    line-height: 1.8rem;
+}
+
+/* II */
+
+.chinh-sach-doi-hang-content h2{
+    font-size:1.2rem;
+    color:black;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+
+.chinh-sach-doi-hang-content h2 .fa-check{
+    color:rgb(26, 170, 26);
+    font-size:1.5rem;
+    padding-right: 0.5rem;
+}
+
+.chinh-sach-doi-hang-content h2 .fa-times{
+    color:rgb(209, 9, 9);
+    font-size:1.9rem;
+    padding-right: 0.5rem;
+}
+
+.chinh-sach-doi-hang-content .x-item{
+    padding: 1rem 0;
+}
+
+.chinh-sach-doi-hang-content .x-item ul{
+    padding-left:1.2rem;
+}
+
+.chinh-sach-doi-hang-content .check-item ul{
+    padding-left:1.2rem;
+}
+
+/* III */
+
+.chinh-sach-doi-hang h2{
+    font-size:1.2rem;
+    color:black;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    margin:1rem 0;
+}
+
+
+.chinh-sach-doi-hang h2 .fa-check{
+    color:rgb(26, 170, 26);
+    font-size:1.5rem;
+    padding-right: 0.5rem;
+}
+
+.chinh-sach-doi-hang h2 .fa-times{
+    color:rgb(209, 9, 9);
+    font-size:1.9rem;
+    padding-right: 0.5rem;
+}
+
+.chinh-sach-table{
+    width:93%;
+    border:2px solid black;
+    margin:0 auto;
+}
+
+.chinh-sach-table-item{
+    display: inline-block;
+    width: 33.33%;
+    text-align: center;
+}
+
+.chinh-sach-table-item div{
+    padding: 0.5rem 0;
+}
+
+.chinh-sach-table-item div:not(:last-child){
+    border-bottom:1px solid black;
+    
+}
+
+.chinh-sach-table-item div:not(:first-child){
+    background-color:whitesmoke;
+}
+
+
+.chinh-sach-table-item h3{
+    font-size:1.4rem;
+}
+
+.chinh-sach-table-item p{
+    font-size:1.3rem;
+    font-weight: 500;
+    
+}
+
+.chinh-sach-table .chinh-sach-table-item:nth-child(2){
+    border-left:1px solid black;
+    border-right:1px solid black;
+}
+
+.table-footer{
+    font-size:1.1rem;
+    color:rgb(75, 73, 73);
+    
+    padding: 0.5rem 1rem 0.5rem 3rem;
+   
+    line-height: 1.8rem;
+}
+
+
+@media screen and (max-width:890px) {
+    .chinh-sach-table{
+        display:flex;
+        flex-direction: column;
+    }
+    .chinh-sach-table-item{
+        width:100%;
+    }
+    .chinh-sach-table .chinh-sach-table-item:nth-child(2){
+        border-left:none;
+        border-right:none;
+    }
+    .chinh-sach-table .chinh-sach-table-item:not(:first-child){
+        border-top:1px solid black;
+    }
+}
+
+
+/* IV */
+
+.chi-phi-doi-hang{
+    font-size:1.1rem;
+    color:rgb(75, 73, 73);
+    background-color: whitesmoke;
+    padding: 0.5rem 1rem 0.5rem 3rem;
+    margin: 0.9rem 0;
+    line-height: 1.8rem;
+}
+
+
+/* footer */
+
+.chinh-sach-footer{
+    max-width:1000px;
+    margin:3rem auto 10rem auto;
+    text-align: center;
+    
+}
+.chinh-sach-footer p{
+    color: gray
+}
+
+.chinh-sach-footer h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:rgb(75, 73, 73);
+    letter-spacing: 1.5px;
+}
+
+.chinh-sach-footer h1{
+    font-size:1.4rem;
+    letter-spacing: 1.5px;
+    margin-top:2.5rem;
+    font-weight: 700;
+}

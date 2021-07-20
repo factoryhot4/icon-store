@@ -1,0 +1,134 @@
+.footer-section{
+    background-color: black;
+    color:#888;
+    padding:2.5rem 0;
+}
+
+.footer-content{
+    max-width:1300px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-around;
+}
+
+.item-title{
+    color:white;
+    font-weight: 600;
+    margin-bottom:15px;
+}
+
+.footer-item-1{
+    width:23%
+}
+
+.footer-item-1 .item{
+    font-size:13px;
+    line-height: 26px;
+}
+
+.footer-item-1 .item span .fa-map-marker-alt{
+    font-size:16px;
+    color:white;
+    padding-right:9px;
+}
+
+.footer-item-1 .item p{
+    font-size:15px;
+    color: rgba(240, 229, 229, 0.925);
+    font-weight: 500;
+}
+
+.footer-item-2{
+    width:23%
+}
+
+.footer-item-2 .item{
+    font-size:13px;
+    line-height: 26px;;
+}
+
+.footer-item-2 .item .item-enve{
+    font-size:15px;
+    color: rgba(240, 229, 229, 0.925);
+    font-weight: 500;
+}
+
+.footer-item-2 .item .fa-envelope{
+    font-size: 16px;
+    color:white;
+    padding-right:9px;
+}
+
+.footer-item-3{
+    width:23%
+}
+
+.footer-item-3 .item{
+    font-size:13px;
+    line-height: 26px;
+   
+}
+
+.footer-item-3 .item a{
+    text-decoration: none;
+    color:#888;
+    display: block
+}
+
+.footer-item-3 .item a:hover{
+    color:#f3327c;
+    transition: 300ms;
+    font-size:14px;
+}
+
+.footer-item-4{
+    width:23%
+}
+
+.footer-item-4 .item{
+    font-size:13px;
+    line-height: 26px;;
+}
+
+.footer-item-4 .item .item-p{
+    font-size:15px;
+    color: rgba(240, 229, 229, 0.925);
+    font-weight: 500;
+}
+
+.item-phone{
+    font-size:16px;
+    color:rgba(245, 245, 245, 0.836)
+}
+
+.item-phone .fa-phone{
+    font-size:14px;
+    border-radius: 50%;
+    background-color: red;
+    padding: 0.3rem 0.3rem;
+
+}
+
+@media  screen and (max-width:768px) {
+    .footer-content{
+        flex-direction: column;
+    }
+
+    .footer-item-1{
+        width:100%;
+        padding: 0 15px;
+    }
+    .footer-item-2{
+        width:100%;
+        padding:40px 15px;
+    }
+    .footer-item-3{
+        width:100%;
+        padding: 20px 15px;
+    }
+    .footer-item-4{
+        width:100%;
+        padding:20px 15px;
+    }
+
+}

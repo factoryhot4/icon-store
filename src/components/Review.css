@@ -1,0 +1,128 @@
+.review-section{
+    padding: 4rem 0 0 0;
+    background-color: white;
+    scroll-snap-align: start;
+}
+
+.review-title{
+    max-width:1200px;
+    margin: 0 auto;
+    height: 9.5rem;
+}
+
+.review-pic{
+    background: url('../assets/Review/review7.jpeg');
+    background-position: center;
+    background-size: cover;
+    height:100%;
+    width:100%;
+   
+}
+
+.title-content{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.8rem;
+    font-weight: 600;
+    background: rgba(210, 220, 224, 0.822);
+}
+
+.review-container{
+    max-width: 1200px;
+    margin: 30px auto;
+    
+}
+
+
+
+.review-item{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    
+    margin-bottom:40px;
+}
+
+.sub-item{
+    width:49%;
+    display:flex;
+    
+}
+
+.sub-item-review{
+    width: 55%;
+    background: rgba(240, 236, 236, 0.747);
+    padding: 0 20px;
+    
+}
+
+.sub-item-review .stars{
+    color: rgba(235, 98, 6, 0.911);
+    margin: 20px 0;
+    
+}
+
+.sub-item-review :nth-child(3){
+    color:rgba(235, 98, 6, 0.911);
+    margin: 20px 0;
+}
+
+.sub-item-review p{
+    font-weight:lighter;
+    font-size:15px;
+    line-height: 1.7rem;
+}
+
+.sub-item-pic{
+    width:45%;
+    
+}
+
+.sub-item-pic img{
+    display:block;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width:768px){
+    .review-container{
+        height:100%;
+    }
+
+    .myS{
+        height:80%;
+    }
+    .review-item{
+        flex-direction: column;
+        height:100%;
+        
+    }
+    .sub-item{
+        width:100%;
+        height:100%;
+        position: relative;
+        
+    }
+
+    .sub-item-pic{
+       
+        width:100vw;
+        height:100%;
+    }
+
+    .sub-item-review{
+        position: absolute;
+       top:0;
+       right:0;
+       bottom:0;
+       left:0;
+       width:100%;
+       background-color: rgba(51, 49, 49, 0.534);
+       color:white;
+       padding:0 20px;
+    }
+}

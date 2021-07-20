@@ -1,0 +1,39 @@
+.scroll-to-top{
+    position:fixed;
+    bottom:12px;
+    right:1%;
+    width:3.9rem;
+    height:3.9rem;
+    border-radius: 100%;
+    background-color: rgba(235, 98, 6, 0.911);
+    color:black;
+    z-index:5000;
+    text-align: center;
+    cursor: pointer;
+    display:flex;
+    flex-direction: column;
+}
+
+.scroll-to-top span{
+    font-size:18px;
+    font-weight: 700;
+    
+}
+
+.scroll-to-top .icon{
+    font-size:30px;
+    margin-top:1px;
+    animation:scrollTop 0.5s alternate ease infinite;
+   line-height:25px;
+    
+}
+
+@keyframes scrollTop {
+    from{
+        transform: translateY(2px)
+    }
+    to{
+        transform: translateY(-2px)
+    }
+    
+}
